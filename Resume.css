@@ -1,0 +1,121 @@
+/*Text related*/
+/*Background related*/
+/*Border related*/
+/*Margin or Padding related*/
+
+/*Color schemes: #2b2741, #8febd5, #e7f7f4*/
+
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 297mm;
+  width: 210mm;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  color: black;
+  text-align: center;
+}
+
+h2{
+  color: white;
+  background-color: #2b2741;
+  border: 2px solid #8febd5;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+table{
+  background-color: #e7f7f4;
+  border: 5px solid #2b2741;
+  width: 791px;
+}
+
+th, td{
+  border: 2px solid black;
+  padding: 15px;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+.sectionLinks {
+  background-color: #e7f7f4;
+  list-style-type: none;
+  text-align: center;
+}
+
+.sectionLinks li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+section {
+  margin-right: 2%;
+  display: inline-block;
+}
+
+.skillsTitle{
+  color: purple;
+  font-weight: bold;
+  text-align: center;
+}
+
+.skillsData{
+  color: purple:
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: left
+}
+
+img {
+  max-width: 100%
+}
+
+.image {
+  flex-basis: 85%
+}
+
+.text {
+  padding-left: 25px;
+}
+
+span{
+  color: purple;
+}
+
+progress {
+border: none;
+width: 791px;
+height: 16px;
+background: crimson;
+}
+
+progress {
+color: lightblue;
+}
+
+progress::-webkit-progress-value {
+background: lightblue;
+}
+
+progress::-moz-progress-bar {
+background: lightcolor;
+}
+
+progress::-webkit-progress-value {
+background: #8febd5;
+}
+
+progress::-webkit-progress-bar {
+background: #2b2741;
+}
